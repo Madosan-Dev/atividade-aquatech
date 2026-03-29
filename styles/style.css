@@ -1,0 +1,188 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    background-color: black;
+    border-bottom: 2px solid aqua;
+    padding: 0;
+}
+.header .container .titulo{
+    color: aqua;
+}
+.container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+}
+.navbar li{
+    margin: 10px;
+    list-style: none;
+    color: gold;
+}
+.navbar .agora{
+    font-weight: bold;
+}
+.navbar a{
+    text-decoration: none;
+    color: gold;
+}
+
+.banner{
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 400px;
+}
+.banner .container{
+    font-size: 40px;
+    color: white;
+    width: 100px;
+}
+.banner .container span{
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+.social .container{
+    background-color: lightgrey;
+    height: 400px;
+}
+.boxes{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxes .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.boxes .box img{
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+
+}
+.boxes .box h4{
+    color: crimson;
+}
+.login .container{
+    background-image:url("../assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: lightgrey;
+    border-radius: 5%;
+}
+.card-login{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.card-cadastro{
+    height: 550px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.card-cadastro h2{
+    color: palevioletred;
+    font-size: 30px;
+}
+
+.card-login h2{
+    margin-top: 10px;
+    color: palevioletred;
+    font-size: 30px;
+}
+.card-login .formulario{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+}
+.card-cadastro .formulario{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+}
+.formulario button{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario .campo{
+    display: flex;
+    flex-direction: column;
+}
+.formulario .campo input{
+    width: 400px;
+    height: 40px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    border-radius: 5%;
+    border: solid 2px aqua;
+}
+.formulario .campo span{
+    color: palevioletred;
+    font-weight: bold;
+}
+.simulador .container{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgrey;
+}
+.simulador .container h2{
+    margin: 30px;
+    font-size: 30px;
+    color: palevioletred;
+}
+.simulador .container p{
+    margin: 10px;
+    width: 800px;
+}
+
+.footer .container{
+    color: white;
+}
+.footer .container h4{
+    margin-right: 10px;
+}
